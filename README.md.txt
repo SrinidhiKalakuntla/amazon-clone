@@ -17,4 +17,19 @@ A simple Amazon-like eCommerce web clone built using **HTML**, **CSS**, and **Ja
 - JavaScript (basic)
 
 ## 📁 Folder Structure
+/project-folder
+│
+├── index.html
+├── home.html
+├── fashion.html
+├── grocery.html
+├── footwear.html
+├── cosmetics.html
+├── books.html
+├── images/
+│ ├── clothing.png
+│ ├── home appliances.png
+│ ├── beauty.png
+│ └── ...other images
+└── background.jpg
 
