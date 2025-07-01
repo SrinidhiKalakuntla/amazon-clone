@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Beauty & Personal Care</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fdf5f7;
+      padding: 20px;
+    }
+
+    a.back-home {
+      text-decoration: none;
+      color: #e91e63;
+      display: inline-block;
+      margin-bottom: 20px;
+      font-size: 16px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #c2185b;
+      margin-bottom: 40px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background-color: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .card h2 {
+      font-size: 1.1em;
+      margin: 10px 0 5px;
+    }
+
+    .price {
+      color: green;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 0.9em;
+      color: #555;
+      margin-bottom: 15px;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .buttons button {
+      flex: 1;
+      padding: 8px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      color: white;
+      font-size: 0.9em;
+      margin: 0 5px;
+    }
+
+    .cart-btn {
+      background-color: #4caf50;
+    }
+
+    .wishlist-btn {
+      background-color: #ff9800;
+    }
+  </style>
+</head>
+<body>
+
+  <a href="index.html" class="back-home">← Back to Home</a>
+
+  <h1>Beauty & Personal Care</h1>
+
+  <div class="grid">
+    <div class="card">
+      <img src="images/Beauty/lipstick.jpg" alt="Lipstick">
+      <h2>Matte Lipstick</h2>
+      <div class="price">₹399</div>
+      <p>Long-lasting matte finish in vibrant red.</p>
+      <div class="buttons">
+        <button class="cart-btn">Add to Cart</button>
+        <button class="wishlist-btn">Add to Wishlist</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/Beauty/facewash.jpg" alt="Face Wash">
+      <h2>Neem Face Wash</h2>
+      <div class="price">₹149</div>
+      <p>Purifies skin and controls oil for a fresh look.</p>
+      <div class="buttons">
+        <button class="cart-btn">Add to Cart</button>
+        <button class="wishlist-btn">Add to Wishlist</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/Beauty/shampoo.jpg" alt="Shampoo">
+      <h2>Herbal Shampoo</h2>
+      <div class="price">₹249</div>
+      <p>Strengthens roots and prevents hair fall.</p>
+      <div class="buttons">
+        <button class="cart-btn">Add to Cart</button>
+        <button class="wishlist-btn">Add to Wishlist</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/Beauty/moisturizer.jpg" alt="Moisturizer">
+      <h2>Daily Moisturizer</h2>
+      <div class="price">₹199</div>
+      <p>Hydrates skin and keeps it smooth all day.</p>
+      <div class="buttons">
+        <button class="cart-btn">Add to Cart</button>
+        <button class="wishlist-btn">Add to Wishlist</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/Beauty/compact.jpg" alt="Compact Powder">
+      <h2>Compact Powder</h2>
+      <div class="price">₹299</div>
+      <p>Matte finish powder with SPF 15 protection.</p>
+      <div class="buttons">
+        <button class="cart-btn">Add to Cart</button>
+        <button class="wishlist-btn">Add to Wishlist</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/Beauty/serum.jpg" alt="Face Serum">
+      <h2>Vitamin C Serum</h2>
+      <div class="price">₹549</div>
+      <p>Brightens skin and reduces dark spots.</p>
+      <div class="buttons">
+        <button class="cart-btn">Add to Cart</button>
+        <button class="wishlist-btn">Add to Wishlist</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/Beauty/sunscreen.jpg" alt="Sunscreen">
+      <h2>SPF 50 Sunscreen</h2>
+      <div class="price">₹349</div>
+      <p>Protects skin from harmful UV rays & tanning.</p>
+      <div class="buttons">
+        <button class="cart-btn">Add to Cart</button>
+        <button class="wishlist-btn">Add to Wishlist</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/Beauty/hairdryer.jpg" alt="Hair Dryer">
+      <h2>Hair Dryer 1200W</h2>
+      <div class="price">₹899</div>
+      <p>Quick drying with heat control & foldable design.</p>
+      <div class="buttons">
+        <button class="cart-btn">Add to Cart</button>
+        <button class="wishlist-btn">Add to Wishlist</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

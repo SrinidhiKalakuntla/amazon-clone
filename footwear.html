@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shoes & Footwear</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      padding: 20px;
+    }
+
+    a.back-home {
+      text-decoration: none;
+      color: #007bff;
+      display: inline-block;
+      margin-bottom: 20px;
+      font-size: 16px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background-color: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .card h2 {
+      font-size: 1.1em;
+      margin: 10px 0 5px;
+    }
+
+    .price {
+      color: green;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 0.9em;
+      color: #555;
+      margin-bottom: 15px;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .buttons button {
+      flex: 1;
+      padding: 8px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      color: white;
+      font-size: 0.9em;
+      margin: 0 5px;
+    }
+
+    .cart-btn {
+      background-color: #28a745;
+    }
+
+    .wishlist-btn {
+      background-color: #ff9800;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 🔙 Back to Home -->
+  <a href="index.html" class="back-home">← Back to Home</a>
+
+  <h1>Shoes & Footwear</h1>
+
+  <div class="grid">
+    <div class="card">
+      <img src="images/Footwear/Black Running Sneakers.png" alt="Black Sneakers">
+      <h2>Black Running Sneakers</h2>
+      <div class="price">₹1,299</div>
+      <p>Breathable mesh, lightweight design, and perfect grip.</p>
+      <div class="buttons">
+        <button class="cart-btn">Add to Cart</button>
+        <button class="wishlist-btn">Add to Wishlist</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/Footwear/Men’s Formal Shoes.png" alt="Formal Shoes">
+      <h2>Men’s Formal Shoes</h2>
+      <div class="price">₹1,899</div>
+      <p>Polished finish, perfect for business and events.</p>
+      <div class="buttons">
+        <button class="cart-btn">Add to Cart</button>
+        <button class="wishlist-btn">Add to Wishlist</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/Footwear/Casual Brown Sandals.png" alt="Sandals">
+      <h2>Casual Brown Sandals</h2>
+      <div class="price">₹749</div>
+      <p>Open-toe comfort sandals for everyday use.</p>
+      <div class="buttons">
+        <button class="cart-btn">Add to Cart</button>
+        <button class="wishlist-btn">Add to Wishlist</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/Footwear/Stylish Women's Heels.png" alt="Heels">
+      <h2>Stylish Women's Heels</h2>
+      <div class="price">₹1,499</div>
+      <p>Elegant block heels, perfect for parties or office.</p>
+      <div class="buttons">
+        <button class="cart-btn">Add to Cart</button>
+        <button class="wishlist-btn">Add to Wishlist</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/Footwear/Soft Indoor Slippers.png" alt="Slippers">
+      <h2>Soft Indoor Slippers</h2>
+      <div class="price">₹299</div>
+      <p>Warm and comfy slippers for home comfort.</p>
+      <div class="buttons">
+        <button class="cart-btn">Add to Cart</button>
+        <button class="wishlist-btn">Add to Wishlist</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/Footwear/Everyday Flip-Flops.png" alt="Flip Flops">
+      <h2>Everyday Flip-Flops</h2>
+      <div class="price">₹199</div>
+      <p>Waterproof and lightweight, ideal for casual use.</p>
+      <div class="buttons">
+        <button class="cart-btn">Add to Cart</button>
+        <button class="wishlist-btn">Add to Wishlist</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/Footwear/Classic Leather Boots.png" alt="Leather Boots">
+      <h2>Classic Leather Boots</h2>
+      <div class="price">₹2,999</div>
+      <p>Perfect for trekking and winter with rugged soles.</p>
+      <div class="buttons">
+        <button class="cart-btn">Add to Cart</button>
+        <button class="wishlist-btn">Add to Wishlist</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/Footwear/Memory Foam Walkers.png" alt="Walking Shoes">
+      <h2>Memory Foam Walkers</h2>
+      <div class="price">₹999</div>
+      <p>Supportive walking shoes for long strolls or work.</p>
+      <div class="buttons">
+        <button class="cart-btn">Add to Cart</button>
+        <button class="wishlist-btn">Add to Wishlist</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

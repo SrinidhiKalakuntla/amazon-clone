@@ -1,0 +1,164 @@
+<!DOCTYPE html> <!-- Defines this as an HTML5 document -->
+<html lang="en"> <!-- Sets the language of the document to English -->
+<head>
+  <meta charset="UTF-8"> <!-- Character encoding for the HTML document -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures responsiveness on all devices -->
+  <title>Amazon Clone - Home</title> <!-- Title of the webpage shown on the browser tab -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-image: url('background.jpg'); /* Aesthetic background image */
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: #333;
+    }
+
+    header {
+      background-color: #232f3e;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #febd69;
+      background-image: url('logo.png'); /* Amazon-like logo image */
+      background-size: contain;
+      background-repeat: no-repeat;
+      padding-left: 40px; /* Makes space for the logo image */
+    }
+
+    .search-bar {
+      flex: 1;
+      margin: 0 20px;
+    }
+
+    .search-bar input {
+      width: 100%;
+      padding: 8px;
+      border-radius: 4px;
+      border: none;
+    }
+
+    .right-icons {
+      display: flex;
+      gap: 20px;
+    }
+
+    .right-icons a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .categories {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px; /* increased space between rows */
+      margin: 40px 0;
+    }
+
+    .categories button {
+      padding: 20px 30px;
+      border: none;
+      border-radius: 10px;
+      background-color: #90caf9;
+      color: #fff;
+      cursor: pointer;
+      font-size: 18px;
+      transition: background 0.3s;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      width: 280px;
+      height: 200px;
+      justify-content: center;
+    }
+
+    .categories button:hover {
+      background-color: #64b5f6;
+    }
+
+    .categories img {
+      width: 64px; /* larger icon */
+      height: 64px; /* larger icon */
+    }
+
+    footer {
+      background-color: #232f3e;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Amazon</div> <!-- Amazon logo with background image -->
+    <div class="search-bar">
+      <input type="text" placeholder="Search for products..."> <!-- Center search bar -->
+    </div>
+    <div class="right-icons">
+      <a href="wishlist.html">Wishlist</a> <!-- Redirects to Wishlist page -->
+      <a href="cart.html">Cart</a> <!-- Redirects to Cart page -->
+    </div>
+  </header>
+
+  <section class="categories">
+    <!-- Buttons with icons that act like navigation links to different category pages -->
+
+    <!-- Place your home appliance icon in images/home appliances.png -->
+    <button onclick="goToPage('home.html')"><img src="images/home appliances.png" alt="">Home & Kitchen</button>
+
+    <!-- Place your fashion icon in images/clothing.png
+    <button onclick="goToPage('clothing.html')"><img src="images/clothing.png" alt="">Fashion</button> -->
+
+    <button onclick="location.href='fashion.html'"><img src="images/clothing.png" alt="Fashion Icon">Fashion</button>
+
+
+    <!-- Place your grocery icon in images/grocery.png -->
+    <button onclick="goToPage('grocery.html')"><img src="images/grocery.png" alt="">Daily Essentials</button>
+
+    <!-- Place your footwear icon in images/footwear.png -->
+    <button onclick="goToPage('footwear.html')"><img src="images/footwear.png" alt="">Shoes & Footwear</button>
+
+    <!-- Place your cosmetics icon in images/cosmetics.png
+    <button onclick="goToPage('cosmetics.html')"><img src="images/beauty.png" alt="">Beauty & Personal Care</button> -->
+    
+
+
+    <button onclick="goToPage('beauty.html')"><img src="images/beauty.png" alt="">Beauty & Personal Care</button>
+
+
+
+
+    <!-- Place your books icon in images/books.png -->
+    <button onclick="goToPage('books.html')"><img src="images/books.png" alt="">Books & Stationery</button>
+  </section>
+
+  <footer>
+    <p>Amazon Clone - All Rights Reserved</p>
+    <p>&copy; 2025 AmazonClone Pvt. Ltd.</p>
+    <p>Address: Hyderabad, Telangana, India</p>
+  </footer>
+
+  <script>
+    function goToPage(page) {
+      window.location.href = page; // Redirect to the selected category page
+    }
+  </script>
+</body>
+</html>

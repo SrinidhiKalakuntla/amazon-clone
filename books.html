@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Books & Stationery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8faff;
+      padding: 20px;
+    }
+
+    a.back-home {
+      text-decoration: none;
+      color: #2e7d32;
+      display: inline-block;
+      margin-bottom: 20px;
+      font-size: 16px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #1b5e20;
+      margin-bottom: 40px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background-color: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .card h2 {
+      font-size: 1.1em;
+      margin: 10px 0 5px;
+    }
+
+    .price {
+      color: green;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 0.9em;
+      color: #555;
+      margin-bottom: 15px;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .buttons button {
+      flex: 1;
+      padding: 8px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      color: white;
+      font-size: 0.9em;
+      margin: 0 5px;
+    }
+
+    .cart-btn {
+      background-color: #2e7d32;
+    }
+
+    .wishlist-btn {
+      background-color: #ff9800;
+    }
+  </style>
+</head>
+<body>
+
+  <a href="index.html" class="back-home">← Back to Home</a>
+
+  <h1>Books & Stationery</h1>
+
+  <div class="grid">
+    <div class="card">
+      <img src="images/Books/Spiral Notepad.png" alt="Notepad">
+      <h2>Spiral Notepad</h2>
+      <div class="price">₹149</div>
+      <p>120 pages, A5 size, perfect for class and notes.</p>
+      <div class="buttons">
+        <button class="cart-btn">Add to Cart</button>
+        <button class="wishlist-btn">Add to Wishlist</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/Books/Gel Pen Set - 10 Colors.png" alt="Pen Set">
+      <h2>Gel Pen Set - 10 Colors</h2>
+      <div class="price">₹199</div>
+      <p>Vibrant ink, smooth writing for notes & art.</p>
+      <div class="buttons">
+        <button class="cart-btn">Add to Cart</button>
+        <button class="wishlist-btn">Add to Wishlist</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/Books/Geometry Box Kit.png" alt="Geometry Set">
+      <h2>Geometry Box Kit</h2>
+      <div class="price">₹99</div>
+      <p>Includes compass, ruler, protractor, divider.</p>
+      <div class="buttons">
+        <button class="cart-btn">Add to Cart</button>
+        <button class="wishlist-btn">Add to Wishlist</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/Books/Stationery Organizer.png" alt="Stationery Pouch">
+      <h2>Stationery Organizer</h2>
+      <div class="price">₹349</div>
+      <p>Multi-compartment pouch for pens and supplies.</p>
+      <div class="buttons">
+        <button class="cart-btn">Add to Cart</button>
+        <button class="wishlist-btn">Add to Wishlist</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/Books/Sticky Notes Set.png" alt="Sticky Notes">
+      <h2>Sticky Notes Set</h2>
+      <div class="price">₹89</div>
+      <p>Color-coded sticky tabs for marking and reminders.</p>
+      <div class="buttons">
+        <button class="cart-btn">Add to Cart</button>
+        <button class="wishlist-btn">Add to Wishlist</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/Books/Oxford Pocket Dictionary.png" alt="Pocket Dictionary">
+      <h2>Oxford Pocket Dictionary</h2>
+      <div class="price">₹299</div>
+      <p>Essential English dictionary for students & exams.</p>
+      <div class="buttons">
+        <button class="cart-btn">Add to Cart</button>
+        <button class="wishlist-btn">Add to Wishlist</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/Books/Art Sketchbook.png" alt="Sketchbook">
+      <h2>Art Sketchbook</h2>
+      <div class="price">₹179</div>
+      <p>A4 size, 80 GSM pages for pencil and ink art.</p>
+      <div class="buttons">
+        <button class="cart-btn">Add to Cart</button>
+        <button class="wishlist-btn">Add to Wishlist</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/Books/Fiction Novel - Paperback.png" alt="Novel">
+      <h2>Fiction Novel - Paperback</h2>
+      <div class="price">₹399</div>
+      <p>Bestselling fiction book with thrilling story.</p>
+      <div class="buttons">
+        <button class="cart-btn">Add to Cart</button>
+        <button class="wishlist-btn">Add to Wishlist</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

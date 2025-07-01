@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fashion Products</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      padding: 20px;
+    }
+
+    a.back-home {
+      display: inline-block;
+      margin-bottom: 20px;
+      text-decoration: none;
+      color: #007bff;
+      font-size: 16px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background-color: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .card h2 {
+      font-size: 1.1em;
+      margin: 10px 0 5px;
+    }
+
+    .price {
+      color: green;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 0.9em;
+      color: #555;
+      margin-bottom: 15px;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .buttons button {
+      flex: 1;
+      padding: 8px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      color: white;
+      font-size: 0.9em;
+      margin: 0 5px;
+    }
+
+    .cart-btn {
+      background-color: #28a745;
+    }
+
+    .wishlist-btn {
+      background-color: #ff9800;
+    }
+  </style>
+</head>
+<body>
+
+  
+  <a href="index.html" class="back-home">← Back to Home</a>
+
+  <h1>Fashion Products</h1>
+  <div class="grid">
+
+    <div class="card">
+     
+      <img src="images/Fashion/shirt.png" alt="T-Shirt">
+      <h2>Casual Cotton T-Shirt</h2>
+      <div class="price">₹699</div>
+      <p>Comfortable and breathable t-shirt for everyday wear.</p>
+      <div class="buttons">
+        <button class="cart-btn">Add to Cart</button>
+        <button class="wishlist-btn">Add to Wishlist</button>
+      </div>
+    </div>
+
+    <div class="card">
+      
+      <img src="images/Fashion/jeans.png" alt="Jeans">
+      <h2>Slim Fit Blue Jeans</h2>
+      <div class="price">₹1,299</div>
+      <p>Trendy slim fit jeans with stretchable fabric.</p>
+      <div class="buttons">
+        <button class="cart-btn">Add to Cart</button>
+        <button class="wishlist-btn">Add to Wishlist</button>
+      </div>
+    </div>
+
+    <div class="card">
+     
+      <img src="images/Fashion/summer dress.png" alt="Dress">
+      <h2>Floral Summer Dress</h2>
+      <div class="price">₹1,599</div>
+      <p>Lightweight and stylish dress perfect for outings.</p>
+      <div class="buttons">
+        <button class="cart-btn">Add to Cart</button>
+        <button class="wishlist-btn">Add to Wishlist</button>
+      </div>
+    </div>
+
+    <div class="card">
+      
+      <img src="images/Fashion/Jacket.png" alt="Jacket">
+      <h2>Denim Jacket</h2>
+      <div class="price">₹2,499</div>
+      <p>Classic denim jacket for a cool, casual look.</p>
+      <div class="buttons">
+        <button class="cart-btn">Add to Cart</button>
+        <button class="wishlist-btn">Add to Wishlist</button>
+      </div>
+    </div>
+
+    <div class="card">
+  
+      <img src="images/Fashion/Sneakers.png" alt="Sneakers">
+      <h2>White Casual Sneakers</h2>
+      <div class="price">₹1,799</div>
+      <p>Comfortable sneakers with stylish design and grip.</p>
+      <div class="buttons">
+        <button class="cart-btn">Add to Cart</button>
+        <button class="wishlist-btn">Add to Wishlist</button>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
+
